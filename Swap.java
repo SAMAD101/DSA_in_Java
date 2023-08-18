@@ -5,12 +5,13 @@ public class Swap {
     public static void main(String[] args) {
         int a = 6;
         int b = 9;
-        swap(a, b); // this wont work as java uses pass by value
+        swap(a, b); // this won't work as java uses pass by value
         System.out.println(a);
         System.out.println(b);
 
         int  arr[] = {1 ,2, 3};
-        change(arr);
+        change(arr); // this works because arr are sent by pass by copy of reference
+        // but this thing won't work with String as they have final modifier
         System.out.println(arr[0]);
     }
 
