@@ -4,7 +4,7 @@ import java.io.*;
 public class CountingOccurrences {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
-        String str = inp.nextLine(); // the string
+        String str = inp.nextLine(); // the string+
         char tch = inp.nextLine().trim().charAt(0); // the char to be counted in the string
 
         int res = countOccurrences(str, tch);
