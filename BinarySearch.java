@@ -4,17 +4,17 @@ import java.io.*;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,6,8,99};
-        runBinarySearchRecursively(arr, 4, 0, 7);
+        int index = runBinarySearchRecursively(arr, 4, 0, 6);
+        System.out.println(index);
     }
 
     public static int runBinarySearchRecursively(
             int[] sortedArray, int key, int low, int high) {
-        int middle = low  + ((high - low) / 2);
+        int middle = (int) (low+high)/2;
 
         if (high < low) {
             return -1;
         }
-
         if (key == sortedArray[middle]) {
             return middle;
         } else if (key < sortedArray[middle]) {
