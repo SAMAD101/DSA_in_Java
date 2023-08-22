@@ -1,8 +1,7 @@
 import java.util.Scanner;
-import java.io.*;
 import java.lang.Math;
 
-public class Questions {
+public class BasicQuestions {
     public static void main(String[] args) {
         System.out.println("For checking prime and armstrong: ");
         Scanner in = new Scanner(System.in);
