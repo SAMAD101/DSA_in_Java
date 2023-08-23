@@ -1,6 +1,4 @@
-import java.util.*;
-import java.io.*;
-
+package Arrays;
 public class LinearSearch {
     public static void main(String[] args) {
         int[] arr = {1,2,4,332,45,34,9,57};

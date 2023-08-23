@@ -1,3 +1,5 @@
+package SimpleStuff;
+
 import java.util.Scanner;
 
 public class Calculator {

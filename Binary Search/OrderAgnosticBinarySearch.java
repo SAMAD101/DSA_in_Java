@@ -1,6 +1,3 @@
-import java.util.*;
-import java.io.*;
-
 public class OrderAgnosticBinarySearch {
     public static void main(String[] args) {
         int[] arr = {99,8,6,4,3,2,1};

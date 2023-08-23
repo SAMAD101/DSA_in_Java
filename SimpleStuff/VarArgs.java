@@ -1,6 +1,7 @@
+package SimpleStuff;
+
 import java.util.Arrays;
-import java.util.Scanner;
-import java.io.*;
+
 
 public class VarArgs {
     public static void main(String[] args) {

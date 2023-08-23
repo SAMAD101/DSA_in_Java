@@ -1,5 +1,7 @@
+package SimpleStuff;
+
 import java.util.Scanner;
-import java.io.*;
+
 
 public class CaseCheck {
     public static void main(String[] args) {

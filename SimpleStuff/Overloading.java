@@ -1,5 +1,4 @@
-import java.util.Scanner;
-import java.io.*;
+package SimpleStuff;
 
 public class Overloading {
     public static void main(String[] args) {
