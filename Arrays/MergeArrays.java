@@ -35,23 +35,29 @@ class MergeArrays {
             ArrayList<Integer> b = new ArrayList<>(3);
             b.add(2); b.add(5); b.add(5);
 
-            ArrayList<Integer> res = new ArrayList<Integer>();
-            
+            ArrayList<Integer> res = new ArrayList<Integer>(a.size() + b.size());
             int i=0;
             int j=0;
-            while(i<a.size()){
-                while(j<b.size()){
-                    if(a.get(i) > b.get(j)){
+            while(i<a.size()) {
+                while (j < b.size()) {
+                    if (i >= a.size()) {
                         res.add(b.get(j));
                         j++;
                         continue;
-                    }else if(a.get(i) < b.get(j)){
+                    }
+                    if (a.get(i) > b.get(j)) {
+                        res.add(b.get(j));
+                        j++;
+                        continue;
+                    } else if (a.get(i) < b.get(j)) {
                         res.add(a.get(i));
                         i++;
                         continue;
-                    }else{
+                    } else {
                         res.add(a.get(i));
-                        i++; j++;
+                        res.add(b.get(j));
+                        i++;
+                        j++;
                         continue;
                     }
                 }
