@@ -55,8 +55,8 @@ class MergeArrays {
                     continue;
                 }
             }
-            res.addAll(i, a);
-            res.addAll(j, b);
+            res.addAll(a.subList(i, a.size()));
+            res.addAll(b.subList(j, b.size()));
 
             for(int k=0; k<res.size(); k++){
                 System.out.println(res.get(k));
