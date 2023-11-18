@@ -20,7 +20,7 @@ public class Ceiling {
                 low = mid+1;
             }
         }
-        if(low< arr.length)
+        if(low < arr.length)
             return arr[low];
         return -1;
     }
