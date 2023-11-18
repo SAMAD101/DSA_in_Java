@@ -8,7 +8,6 @@ public class Floor {
     public static int findFloor(int[] arr, int target){
         int low = 0;
         int high = arr.length-1;
-        boolean isAsc = arr[low] < arr[high];
         int mid = (int) (low+high)/2;
         while(low<=high){
             mid = (int) (low+high)/2;
