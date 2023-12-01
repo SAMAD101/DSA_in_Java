@@ -1,4 +1,4 @@
-// Binary Search Tree (BST) implementatuon in C using Linked List
+// Binary Searchk Tree (BST) implementatuon in C using Linked List
 
 #include<stdio.h>
 #include<stdlib.h>
