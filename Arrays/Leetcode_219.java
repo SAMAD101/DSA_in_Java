@@ -12,7 +12,6 @@ public class Leetcode_219 {
                 if(nums[i]==nums[j] && (j-i)<=k)
                     return true;
             }
-
         }
         return false;
     }
