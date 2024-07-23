@@ -26,4 +26,3 @@ stck.push(1)
 stck.push('two')
 
 print(stck.peek())
-    

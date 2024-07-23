@@ -6,7 +6,7 @@ public class OrderAgnosticBinarySearch {
     }
 
     public static int binarySearch(
-            int[] sortedArray, int key, int head, int tail){
+        int[] sortedArray, int key, int head, int tail){
 
         boolean isAsc = sortedArray[head] < sortedArray[tail];
 
