@@ -1,4 +1,4 @@
-def ssort(arr: list[int]) -> int:
+def ssort(arr: list[int]) -> list[int]:
     start = 0
     while start < len(arr):
         min_idx = start

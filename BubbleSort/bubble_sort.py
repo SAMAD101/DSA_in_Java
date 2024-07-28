@@ -1,4 +1,4 @@
-def bsort(arr: list[int]) -> int:
+def bsort(arr: list[int]) -> list[int]:
     end = len(arr)
     while end > 0:
         for i in range(1, end):
