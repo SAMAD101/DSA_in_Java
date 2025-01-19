@@ -16,7 +16,6 @@ class Queue:
     
 
 q = Queue()
-
 print(q.is_empty())
 
 q.enqueue(1)
